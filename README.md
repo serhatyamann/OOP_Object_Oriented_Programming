@@ -9,7 +9,7 @@
 
 #### Within an object, code, data or both may be private or public to that object. Private code is known to and accessible only by another part of the object, that is private code or data may not be accessible by a piece of the program that exists outside the object. When the code and data is public, other portions of your program may access it even though it is defined within an object.
 
-### [Inheritance](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
+### [Inheritance](javascript: void(0))
 
 #### Inheritance is the process by which one object can acquire the properties of another object. Inheritance is a "is a kind of" relationship and it supports the concept of classification in which an object needs only define those qualities that make it unique within the class. Inheritance involves a base class and a derived class. The derived class inherits from the base class and also can override inherited members as well as add new members to extend the base class.
 
