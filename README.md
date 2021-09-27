@@ -5,11 +5,17 @@
 
 ### [Encapsulation](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/tree/master/Encapsulation)
 
-#### Encapsulation binds together code and the data it manipulates and keeps them both safe from outside interference and misuse. Encapsulation is a protective container that prevents code and data from being accessed by other code defined outside the container.
+#### Encapsulation is the mechanism that binds together the code and the data it manipulates, and keeps both safe from outside interference and misuse. In OOP, code and data may be combined in such a way that a self-contained box is created. When code and data are linked together in this way, an object is created and encapsulation exists.
+
+#### Within an object, code, data or both may be private or public to that object. Private code is known to and accessible only by another part of the object, that is private code or data may not be accessible by a piece of the program that exists outside the object. When the code and data is public, other portions of your program may access it even though it is defined within an object.
 
 ### [Inheritance](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
-#### Inheritance is the process by which one object acquires the properties of another object. A type derives from a base type, taking all the base type members fields and functions. Inheritance is most useful when you need to add functionality to an existing type. For example all .NET classes inherit from the System.Object class, so a class can include new functionality as well as use the existing object's class functions and properties as well.
+#### Inheritance is the process by which one object can acquire the properties of another object. Inheritance is a "is a kind of" relationship and it supports the concept of classification in which an object needs only define those qualities that make it unique within the class. Inheritance involves a base class and a derived class. The derived class inherits from the base class and also can override inherited members as well as add new members to extend the base class.
+
+#### A base type represents the generalization, whereas a derived type represents a specification of an instance. Such as Employees that can have diverse types, such as hourly, salaried and temporary so in that case Employees is the general base class and hourly, salaried and temporary employee are specialized derived classes.
+
+#### Classes can inherit from a single class and one or more interfaces. When inheriting from a class, the derived class inherits the members including the code of the base class. The important point to remember is that Constructors and Destructors are not inherited from the base class.
 
 ### [Polymorphism](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
