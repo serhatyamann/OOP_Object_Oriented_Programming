@@ -35,8 +35,6 @@
 
 #### Attributes provide additional context to a class, like adjectives; for example the Serializable attribute. Accessibility is the visibility of the class. The default accessibility of a class is internal. Private is the default accessibility of class members. The following table lists the accessibility keywords;
 
-
-
 Keyword | Description
 ------------ | -------------
 public | Public class is visible in the current and referencing assembly.
@@ -48,6 +46,7 @@ Internal protected | Visible inside containing assembly and descendent of thecur
 #### Modifiers refine the declaration of a class. The list of all modifiers defined in the table are as follows;
 
 Modifier | Description
+------------ | -------------
 sealed | Class can't be inherited by a derived class.
 static | Class contains only static members.
 unsafe | The class that has some unsafe construct likes pointers.
