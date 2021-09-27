@@ -36,6 +36,7 @@
 #### Attributes provide additional context to a class, like adjectives; for example the Serializable attribute. Accessibility is the visibility of the class. The default accessibility of a class is internal. Private is the default accessibility of class members. The following table lists the accessibility keywords;
 
 
+
 Keyword | Description
 ------------ | -------------
 public | Public class is visible in the current and referencing assembly.
