@@ -95,3 +95,5 @@ Abstract | The instance of the class is not created if the Class is abstract.
 * An Abstract class can contain constructors and destructors but an interface can't.
 * An Abstract class contains fields but interfaces don't.
 
+> Source: https://www.c-sharpcorner.com/
+
