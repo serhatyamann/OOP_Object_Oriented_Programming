@@ -31,6 +31,5 @@ namespace Encapsulation
                 }
             }
         }
-        public Product() { }
     }
 }
