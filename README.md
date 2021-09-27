@@ -25,3 +25,21 @@
 ### Reusability
 
 #### Once a class has been written, created and debugged, it can be distributed to other programmers for use in their own program. This is called reusability, or in .NET terminology this concept is called a component or a DLL. In OOP, however, inheritance provides an important extension to the idea of reusability. A programmer can use an existing class and without modifying it, add additional features to it.
+
+### Classes and Objects
+
+#### Classes are special kinds of templates from which you can create objects. Each object contains data and methods to manipulate and access that data. The class defines the data and the functionality that each object of that class can contain.
+
+#### The class header includes attributes, modifiers, and the class keyword. The class body encapsulates the members of the class, that are the data members and member functions. The syntax of a class declaration is as follows:
+
+#### Attributes accessibility modifiers class identifier: baselist { body }
+
+#### Attributes provide additional context to a class, like adjectives; for example the Serializable attribute. Accessibility is the visibility of the class. The default accessibility of a class is internal. Private is the default accessibility of class members. The following table lists the accessibility keywords;
+
+*Keyword	            *Description
+*public	            *Public class is visible in the current and referencing assembly.
+*private 	          *Visible inside current class.
+*protected	          *Visible inside current and derived class.
+*Internal	          *Visible inside containing assembly.
+*Internal protected	*Visible inside containing assembly and descendent of thecurrent class.
+
