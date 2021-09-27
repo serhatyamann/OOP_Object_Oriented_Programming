@@ -7,19 +7,19 @@
 
 #### Encapsulation binds together code and the data it manipulates and keeps them both safe from outside interference and misuse. Encapsulation is a protective container that prevents code and data from being accessed by other code defined outside the container.
 
-### Inheritance
+### [Inheritance](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### Inheritance is the process by which one object acquires the properties of another object. A type derives from a base type, taking all the base type members fields and functions. Inheritance is most useful when you need to add functionality to an existing type. For example all .NET classes inherit from the System.Object class, so a class can include new functionality as well as use the existing object's class functions and properties as well.
 
-### Polymorphism
+### [Polymorphism](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### Polymorphism is a feature that allows one interface to be used for a general class of action. This concept is often expressed as "one interface, multiple actions". The specific action is determined by the exact nature of circumstances.
 
-### Reusability
+### [Reusability](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### Once a class has been written, created and debugged, it can be distributed to other programmers for use in their own program. This is called reusability, or in .NET terminology this concept is called a component or a DLL. In OOP, however, inheritance provides an important extension to the idea of reusability. A programmer can use an existing class and without modifying it, add additional features to it.
 
-### Classes and Objects
+### [Classes and Objects](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### Classes are special kinds of templates from which you can create objects. Each object contains data and methods to manipulate and access that data. The class defines the data and the functionality that each object of that class can contain.
 
@@ -48,7 +48,7 @@ Abstract | The instance of the class is not created if the Class is abstract.
 
 #### The baselist is the inherited class. By default, classes inherit from the System.Object type. A class can inherit and implement multiple interfaces but doesn't support multiple inheritances.
 
-### Constructor and Destructor
+### [Constructor and Destructor](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### A constructor is a specialized function that is used to initialize fields. A constructor has the same name as the class. Instance constructors are invoked with the new operator and can't be called in the same manner as other member functions. There are some important rules pertaining to constructors as in the following;
 
@@ -59,7 +59,7 @@ Abstract | The instance of the class is not created if the Class is abstract.
 * A constructor can have zero or more parameters.
 * Classes can have multiple constructors in the form of default, parameter or both.
 
-### Static Constructor
+### [Static Constructor](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### A constructor can be static. You create a static constructor to initialize static fields. Static constructors are not called explicitly with the new statement. They are called when the class is first referenced. There are some limitations of the static constructor as in the following;
 
@@ -67,7 +67,7 @@ Abstract | The instance of the class is not created if the Class is abstract.
 * Static constructors can't be overloaded.
 * There is no accessibility specified for Static constructors.
 
-### Destructors
+### [Destructors](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### The purpose of the destructor method is to remove unused objects and resources. Destructors are not called directly in the source code but during garbage collection. Garbage collection is nondeterministic. A destructor is invoked at an undetermined moment. More precisely a programmer can't control its execution; rather it is called by the Finalize () method. Like a constructor, the destructor has the same name as the class except a destructor is prefixed with a tilde (~). There are some limitations of destructors as in the following;
 
@@ -76,11 +76,11 @@ Abstract | The instance of the class is not created if the Class is abstract.
 * Destructors are not inherited.
 * Destructors can cause performance and efficiency implications.
 
-### Function Overloading
+### [Function Overloading](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### Function overloading allows multiple implementations of the same function in a class. Overloaded methods share the same name but have a unique signature. The number of parameters, types of parameters or both must be different. A function can't be overloaded on the basis of a different return type alone. 
 
-### Interface
+### [Interface](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/blob/master/README.md)
 
 #### An interface is a set of related functions that must be implemented in a derived class. Members of an interface are implicitly public and abstract. Interfaces are similar to abstract classes. First, both types must be inherited; second, you cannot create an instance of either. Although there are several differences as in the following;
 
