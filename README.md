@@ -1,14 +1,7 @@
 # OOP_Object_Oriented_Programming
-### Object-oriented programming (OOP) is the core ingredient of the .NET framework. OOP is so important that, before embarking on the road to .NET, you must understand its basic principles and terminology to write even a simple program. The fundamental idea behind OOP is to combine into a single unit both data and the methods that operate on that data; such units are called an object. All OOP languages provide mechanisms that help you implement the object-oriented model. They are encapsulation, inheritance, polymorphism and reusability. Let's now take a brief look at these concepts.
 
-* OOP's overview
-* Classes and Objects
-* Constructor and Destructor
-* Function Overloading
-* Encapsulation
-* Inheritance
-* Interface
-* Polymorphism
+### Object-oriented programming (OOP) is the core ingredient of the .NET framework. OOP is so important that, before embarking on the road to .NET, you must understand its basic principles and terminology to write even a simple program. The fundamental idea behind OOP is to combine into a single unit both data and the methods that operate on that data; such units are called an object. All OOP languages provide mechanisms that help you implement the object-oriented model.
+
 
 ### [Encapsulation](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/tree/master/Encapsulation)
 
@@ -44,3 +37,55 @@ private | Visible inside current class.
 protected | Visible inside current and derived class.
 Internal | Visible inside containing assembly.
 Internal protected | Visible inside containing assembly and descendent of thecurrent class.
+
+#### Modifiers refine the declaration of a class. The list of all modifiers defined in the table are as follows;
+
+Modifier | Description
+sealed | Class can't be inherited by a derived class.
+static | Class contains only static members.
+unsafe | The class that has some unsafe construct likes pointers.
+Abstract | The instance of the class is not created if the Class is abstract.
+
+#### The baselist is the inherited class. By default, classes inherit from the System.Object type. A class can inherit and implement multiple interfaces but doesn't support multiple inheritances.
+
+### Constructor and Destructor
+
+#### A constructor is a specialized function that is used to initialize fields. A constructor has the same name as the class. Instance constructors are invoked with the new operator and can't be called in the same manner as other member functions. There are some important rules pertaining to constructors as in the following;
+
+* Classes with no constructor have an implicit constructor called the default constructor, that is parameterless. The default constructor assigns default values to fields.
+* A public constructor allows an object to be created in the current assembly or referencing assembly.
+* Only the extern modifier is permitted on the constructor.
+* A constructor returns void but does not have an explicitly declared return type.
+* A constructor can have zero or more parameters.
+* Classes can have multiple constructors in the form of default, parameter or both.
+
+### Static Constructor
+
+#### A constructor can be static. You create a static constructor to initialize static fields. Static constructors are not called explicitly with the new statement. They are called when the class is first referenced. There are some limitations of the static constructor as in the following;
+
+* Static constructors are parameterless.
+* Static constructors can't be overloaded.
+* There is no accessibility specified for Static constructors.
+
+### Destructors
+
+#### The purpose of the destructor method is to remove unused objects and resources. Destructors are not called directly in the source code but during garbage collection. Garbage collection is nondeterministic. A destructor is invoked at an undetermined moment. More precisely a programmer can't control its execution; rather it is called by the Finalize () method. Like a constructor, the destructor has the same name as the class except a destructor is prefixed with a tilde (~). There are some limitations of destructors as in the following;
+
+* Destructors are parameterless.
+* A Destructor can't be overloaded.
+* Destructors are not inherited.
+* Destructors can cause performance and efficiency implications.
+
+### Function Overloading
+
+#### Function overloading allows multiple implementations of the same function in a class. Overloaded methods share the same name but have a unique signature. The number of parameters, types of parameters or both must be different. A function can't be overloaded on the basis of a different return type alone. 
+
+### Interface
+
+#### An interface is a set of related functions that must be implemented in a derived class. Members of an interface are implicitly public and abstract. Interfaces are similar to abstract classes. First, both types must be inherited; second, you cannot create an instance of either. Although there are several differences as in the following;
+
+* An Abstract class can contain some implementations but an interface can't.
+* An Interface can only inherit other interfaces but abstract classes can inherit from other classes and interfaces.
+* An Abstract class can contain constructors and destructors but an interface can't.
+* An Abstract class contains fields but interfaces don't.
+
