@@ -54,7 +54,7 @@ Abstract | The instance of the class is not created if the Class is abstract.
 
 #### The baselist is the inherited class. By default, classes inherit from the System.Object type. A class can inherit and implement multiple interfaces but doesn't support multiple inheritances.
 
-### [Constructor and Destructor](#)
+### [Constructor and Destructor](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/tree/master/Constructor_And_Destructor)
 
 #### A constructor is a specialized function that is used to initialize fields. A constructor has the same name as the class. Instance constructors are invoked with the new operator and can't be called in the same manner as other member functions. There are some important rules pertaining to constructors as in the following;
 
