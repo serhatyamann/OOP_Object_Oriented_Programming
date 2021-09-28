@@ -73,7 +73,7 @@ Abstract | The instance of the class is not created if the Class is abstract.
 * Static constructors can't be overloaded.
 * There is no accessibility specified for Static constructors.
 
-### [Destructors](#)
+### [Destructors](https://github.com/serhatyamann/OOP_Object_Oriented_Programming/tree/master/Constructor_And_Destructor)
 
 #### The purpose of the destructor method is to remove unused objects and resources. Destructors are not called directly in the source code but during garbage collection. Garbage collection is nondeterministic. A destructor is invoked at an undetermined moment. More precisely a programmer can't control its execution; rather it is called by the Finalize () method. Like a constructor, the destructor has the same name as the class except a destructor is prefixed with a tilde (~). There are some limitations of destructors as in the following;
 
