@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor_And_Destructor"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{87129470-2932-4BD9-822F-F2DCAB609834}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{91B4F5A2-3D57-4A95-A1F6-5AF1DD61E7A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{87129470-2932-4BD9-822F-F2DCAB609834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87129470-2932-4BD9-822F-F2DCAB609834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87129470-2932-4BD9-822F-F2DCAB609834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B4F5A2-3D57-4A95-A1F6-5AF1DD61E7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B4F5A2-3D57-4A95-A1F6-5AF1DD61E7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B4F5A2-3D57-4A95-A1F6-5AF1DD61E7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B4F5A2-3D57-4A95-A1F6-5AF1DD61E7A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
